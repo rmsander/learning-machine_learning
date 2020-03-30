@@ -7,7 +7,7 @@ Sources:
 """
 
 
-def expectiminimax(node, depth, target_depth, scores, probabilities, turn="MAX"):
+def expectiminimax(node, depth, target_depth, scores, probabilities, turn="MAX", turn_prev="CHANCE"):
     """Expectiminimax implementation in Python."""
 
     # Base case
@@ -18,18 +18,26 @@ def expectiminimax(node, depth, target_depth, scores, probabilities, turn="MAX")
     if turn == "MAX":
         alpha = -math.inf
         for child in children[node]:
-            alpha = max(alpha, expectiminimax(child, depth + 1, target_depth, scores, probabilities, turn="MIN"))
+            alpha = max(alpha, expectiminimax(child, depth + 1, target_depth, scores, probabilities,
+                                              turn="CHANCE", turn_prev="MAX"))
 
     # MIN (adversarial AI turn)
     elif turn == "MIN":
         alpha = math.inf
         for child in children[node]:
-            alpha = min(alpha, expectiminimax(child, depth + 1, target_depth, scores, probabilities, turn="CHANCE"))
+            alpha = min(alpha, expectiminimax(child, depth + 1, target_depth, scores,
+                                              probabilities, turn="CHANCE", turn_prev="MIN"))
 
     # Chance (expectation turn)
     elif turn == "CHANCE":
+        # Decide whether to do min or max next
+        if turn_prev == "MIN":
+            next_turn = "MAX"
+        elif turn_prev == "MAX":
+            next_turn = "MIN"
         alpha = 0
         for child in children[node]:
-            alpha += probs[child] * expectiminimax(child, depth + 1, target_depth, scores, probabilities, turn="MAX")
+            alpha += probs[child] * expectiminimax(child, depth + 1, target_depth, scores,
+                                                   probabilities, turn=next_turn, turn_prev="CHANCE")
 
     return alpha
