@@ -57,7 +57,7 @@ class GameManager:
             self.grid.setCellValue(cell, tileValue)
 
     def start(self) -> int:
-        """ Main method that handles running the game of 2048 """
+        """ Main method that handles running the game of ai_2048 """
 
         # Initialize the game
         self.insertRandomTiles(self.initTiles)
