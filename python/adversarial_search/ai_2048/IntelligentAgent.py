@@ -3,7 +3,7 @@ import math
 import time
 import numpy as np
 import copy
-from ai_2048.BaseAI import BaseAI
+from BaseAI import BaseAI
 
 
 class IntelligentAgent(BaseAI):
