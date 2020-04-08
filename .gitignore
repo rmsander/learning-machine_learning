@@ -1,3 +1,4 @@
 # PyCharm
 *.idea/*
+*pycache*
 
