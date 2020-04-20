@@ -18,18 +18,18 @@ class IntelligentAgent(BaseAI):
       pruning.
     """
 
-    def __init__(self):
+    def __init__(self, ):
 
         # Inherit from superclass
         super(IntelligentAgent, self).__init__()
 
         # Put attributes here - Some ideas are below in block comment
         self.depth = 4
-        self.heuristic_weights = [0.01, 0.01, 1, 0.1]  # For 4 heuristics
+        self.heuristic_weights = [.05, .05, 1, 1]  # For 4 heuristics
         self.heuristics = ['monotonic', 'smoothness', 'free_tiles', 'merges']
         self.time_to_move = 0.2  # seconds
         self.use_alpha_beta = True  # Whether to use alpha-beta
-        self.probabilities = [0.9, 0.2]  # Probability table for 2 (0.9) and 4 (0.1)
+        self.probabilities = [0.9, 0.1]  # Probability table for 2 (0.9) and 4 (0.1)
 
         # Timing expectiminimax in getMove
         self.start_time = 0
@@ -279,8 +279,8 @@ class IntelligentAgent(BaseAI):
                 if not (row_tiles == sorted_rows or row_tiles == sorted_rows[::-1]):
                     max_tile_index = np.argmax(row_tiles)
                     if max_tile_index != 0 and max_tile_index != 3:  # Not corner
-                        total -= abs(row_tiles[max_tile_index] - row_tiles[max_tile_index - 1]) + \
-                                 abs(row_tiles[max_tile_index] - row_tiles[max_tile_index + 1])
+                        total -= abs(math.log2(row_tiles[max_tile_index]+1) - math.log2(row_tiles[max_tile_index - 1]+1)) + \
+                                 abs(math.log2(row_tiles[max_tile_index]+1) - math.log2(row_tiles[max_tile_index + 1]+1))
 
         if use_cols:
             for j in range(4):  # Iterate through rows of board
@@ -290,8 +290,8 @@ class IntelligentAgent(BaseAI):
                 if not (col_tiles == sorted_cols or col_tiles == sorted_rows[::-1]):
                     max_tile_index = np.argmax(col_tiles)
                     if max_tile_index != 0 and max_tile_index != 3:  # Not corner
-                        total -= abs(col_tiles[max_tile_index] - col_tiles[max_tile_index - 1]) + \
-                                 abs(col_tiles[max_tile_index] - col_tiles[max_tile_index + 1])
+                        total -= abs(math.log2(col_tiles[max_tile_index]+1) - math.log2(col_tiles[max_tile_index - 1]+1)) + \
+                                 abs(math.log2(col_tiles[max_tile_index]+1) - math.log2(col_tiles[max_tile_index + 1]+1))
 
         return total
 
@@ -324,8 +324,7 @@ class IntelligentAgent(BaseAI):
                         continue
                     else:  # If we haven't seen it, add it
                         existing_pairs[((i, j), neighbor)] = 1
-                        if value == grid.getCellValue(neighbor):
-                            total -= abs(grid.getCellValue(neighbor) - value)
+                        total -= abs(math.log2(grid.getCellValue(neighbor)+1) - math.log2(value+1))
         return total
 
     # Reference: https://www.robertxiao.ca/hacking/2048-ai/
