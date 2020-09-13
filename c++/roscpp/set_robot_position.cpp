@@ -2,7 +2,7 @@
 #include "gazebo_msgs/SetModelState.h"
 
 // Source: https://answers.ros.org/question/12116/calling-gazebo-service-set_model_state-in-c-code/ (User profile: https://answers.ros.org/users/189/sam/)
-*/ NOTE: Works with ROS Kinetic and Gazebo 7.0.0 and Catkin Tools. Remember to add "gazebo_msgs" into CMakeLists.txt and package.xml as dependencies. (credits: https://answers.ros.org/users/5055/zheng/)/*
+// NOTE: Works with ROS Kinetic and Gazebo 7.0.0 and Catkin Tools. Remember to add "gazebo_msgs" into CMakeLists.txt and package.xml as dependencies. (credits: https://answers.ros.org/users/5055/zheng/)//
 
 using namespace std;
 
