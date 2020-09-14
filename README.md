@@ -42,6 +42,8 @@ Exercises and examples for programming in C++ can be found in `./c++/`.  These e
 1. Creating a `RandomVector` class that samples a random vector of arbitrary dimension from a uniform distribution.
 2. `roscpp` exercises.
 
+## Stata Programming
+Stata, a statistical programming language, is also useful for data science, machine learning, and econometrics.  You can find content and examples for stata in   `./stata/`.
 
 ## Missing Something?  More Concepts You Would Like to See?
 If you have questions or would like content to be added for a specific topic, please feel free to let me know via [this google form](https://forms.gle/yH4NxYYQsqjNexuQ8).  I'm always looking for ways to improve this website and my documentation
