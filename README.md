@@ -1,6 +1,8 @@
-# Tutoring for Machine Learning
+# Learning Machine Learning
 
-This repository is a guide I use for tutoring with machine learning, computer vision, operating systems, and programming.
+Welcome!  This repository is built for anyone interested in learning more about different facets of machine learning.  Whether you want to learn more about native Python, C++, or the advanced tutorials or algorithms driving state-of-the-art in machine learning and artificial intelligence today, my goal is for this repository to be a resource for your learning in these fields.
+
+I've also been working on an open-source guide for machine learning and AI.  You can find it [here](https://docs.google.com/document/d/1XS8DIW_nVHKe8Gfp6hK24GMVcaM4TKbZCMEVxJfdG7Y/edit?usp=sharing) as a set of google docs, as well as [here](https://rmsander.github.io/documentation/index.html) as part of my personal website.  Both of these are continuously evolving and will have more content added to them in time.
 
 ## Installation
 For full use of all Jupyter notebooks and libraries, please install requirements using either `conda` or `pip`:
@@ -40,5 +42,6 @@ Exercises and examples for programming in C++ can be found in `./c++/`.  These e
 1. Creating a `RandomVector` class that samples a random vector of arbitrary dimension from a uniform distribution.
 2. `roscpp` exercises.
 
-## Python Packages for Machine Learning
-Exercises and tutorials for working with different machine learning packages in Python can be found in the `python_package_tutorials/` directory.
+
+## Missing Something?  More Concepts You Would Like to See?
+If you have questions or would like content to be added for a specific topic, please feel free to let me know via [this google form](https://forms.gle/yH4NxYYQsqjNexuQ8).  I'm always looking for ways to improve this website and my documentation
