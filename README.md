@@ -17,17 +17,23 @@ For learning about concepts in machine learning, computer vision, operating syst
 2. Introductory Slides on Python
 
 ## Python Programming
-Exercises and tutorials for learning to program in (mostly native) Python (originally developed for high school students) can be found in `./python/`.  The e exercises cover concepts in:
+Python is a powerful programming language for machine learning, probability, statistics, and scientific computing.  Many state-of-the-art frameworks for machine learning, such as **TensorFlow**, **PyTorch**, **NumPy**, **Scikit-Learn**, and **Keras** all have open-source implementations in Python.  You can find exercises for Python under the `python` directory.  See contents below:
 
+* Under `python/injaz_exercises`, you can find Python files covering fundamentals in Python, such as:
 1. Python data structures (lists, tuples, dictionaries, strings, ints/floats)
 2. Loops and iteration (for and while)
 3. Conditional logic
 4. Functions
-5. I/O
-6. A brief intro to NumPy
+5. I/O (input/output)
+6. A brief intro to `numpy`
 
-## Python Package Tutorials
-In addition to the Python exercises above, you can also find tutorials on the following packages in `./python_package_tutorials`.  Note that all of these tutorials are implemented with `.ipynb` files and can be run with [Jupyter Notebook](https://jupyter.org/) or [Google Colab](https://colab.research.google.com/).  Tutorials include:
+You can also find some introductory concepts in a more "notebook"-like fashion under `python/introductory_notebooks`.
+
+* Under `python/example_applications`, I have illustrated some of the applications of Python both inside and outside of AI, such as fingerprint detection, stock price prediction, and Principal Component Analysis.
+
+* Under `python/machine_learning_fundamentals`, I have included some files for some fundamental concepts in machine learning, such as regression and K-Means Clustering.
+
+* Under `python/python_package_tutorials`, I have included `jupyter` notebooks (with extension `.ipynb`).  Note that all of these tutorials are implemented with `.ipynb` files and can be run with [Jupyter Notebook](https://jupyter.org/) or [Google Colab](https://colab.research.google.com/).  Tutorials include:
 
 1. `NumPy`
 2. `OpenCV`
@@ -35,6 +41,10 @@ In addition to the Python exercises above, you can also find tutorials on the fo
 4. `Keras`
 5. `PyTorch`
 6. `pandas` 
+
+* Under `python/reinforcement_learning`, you can find some code for deep reinforcement learning from pixels.
+
+* Under `python/adversarial_search`, you can find an application of Python to solving the game of 2048 using adversarial search techniques.
 
 ## C++ Programming
 Exercises and examples for programming in C++ can be found in `./c++/`.  These examples are mainly derived from exercises with programming drones for autonomous racing in MIT's 16.485: Visual Navigation for Autonomous Vehicles course.  Some examples of code include:
