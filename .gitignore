@@ -1,4 +1,5 @@
 # PyCharm
 *.idea/*
 *pycache*
+*.ipynb_checkpoints*
 
