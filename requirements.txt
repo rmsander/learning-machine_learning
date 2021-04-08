@@ -1,6 +1,7 @@
 absl-py @ file:///tmp/build/80754af9/absl-py_1615411205513/work
 aiohttp @ file:///tmp/build/80754af9/aiohttp_1614360989480/work
 astor==0.8.1
+astunparse==1.6.3
 async-timeout==3.0.1
 attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work
 backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
@@ -20,7 +21,8 @@ Cython @ file:///tmp/build/80754af9/cython_1614014840177/work
 decorator @ file:///tmp/build/80754af9/decorator_1617624478095/work
 faiss==1.5.3
 faiss-cpu==1.7.0
-gast==0.2.2
+flatbuffers==1.12
+gast==0.3.3
 gensim @ file:///tmp/build/80754af9/gensim_1613994459750/work
 google-api-core @ file:///C:/ci/google-api-core-split_1613980333946/work
 google-auth @ file:///tmp/build/80754af9/google-auth_1616008050444/work
@@ -32,8 +34,8 @@ google-pasta==0.2.0
 google-resumable-media @ file:///tmp/build/80754af9/google-resumable-media_1608056254223/work
 googleapis-common-protos @ file:///tmp/build/80754af9/googleapis-common-protos-feedstock_1613732354075/work
 gpytorch==1.4.0
-grpcio @ file:///tmp/build/80754af9/grpcio_1614883945333/work
-h5py==2.8.0
+grpcio==1.32.0
+h5py==2.10.0
 idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
 importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1617877314848/work
 ipykernel @ file:///tmp/build/80754af9/ipykernel_1596206598566/work/dist/ipykernel-5.3.4-py3-none-any.whl
@@ -58,7 +60,7 @@ nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
 numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1603479632437/work
 oauthlib==3.1.0
 olefile==0.46
-opt-einsum==3.1.0
+opt-einsum==3.3.0
 pandas==1.2.3
 parso @ file:///tmp/build/80754af9/parso_1617223946239/work
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
@@ -86,13 +88,13 @@ requests-oauthlib==1.3.0
 rsa @ file:///tmp/build/80754af9/rsa_1614366226499/work
 s3transfer @ file:///tmp/build/80754af9/s3transfer_1616183147336/work
 scikit-learn @ file:///tmp/build/80754af9/scikit-learn_1614445567925/work
-scipy @ file:///tmp/build/80754af9/scipy_1616700973326/work
+scipy==1.4.1
 six @ file:///tmp/build/80754af9/six_1605205313296/work
 smart-open @ file:///tmp/build/80754af9/smart_open_1617288398023/work
-tensorboard @ file:///home/builder/ktietz/aggregate/tensorflow_recipes/ci_te/tensorboard_1614593728657/work/tmp_pip_dir
+tensorboard==2.4.1
 tensorboard-plugin-wit==1.6.0
 tensorflow==2.4.0
-tensorflow-estimator==2.1.0
+tensorflow-estimator==2.4.0
 termcolor==1.1.0
 threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
 torch==1.8.1
