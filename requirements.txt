@@ -91,7 +91,7 @@ six @ file:///tmp/build/80754af9/six_1605205313296/work
 smart-open @ file:///tmp/build/80754af9/smart_open_1617288398023/work
 tensorboard @ file:///home/builder/ktietz/aggregate/tensorflow_recipes/ci_te/tensorboard_1614593728657/work/tmp_pip_dir
 tensorboard-plugin-wit==1.6.0
-tensorflow==2.1.0
+tensorflow==2.4.0
 tensorflow-estimator==2.1.0
 termcolor==1.1.0
 threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
