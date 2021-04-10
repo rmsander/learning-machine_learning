@@ -71,6 +71,4 @@ Stata, a statistical programming language, is also useful for data science, mach
 If you have questions or would like content to be added for a specific topic, 
 please feel free to let me know via [this google form](https://forms.gle/yH4NxYYQsqjNexuQ8).  I'm always looking for ways to improve this website and my documentation.
 If you're interested in learning more about machine learning through online articles, 
-please check out my Medium blog [here](https://rmsander.medium.com).# Learning Machine Learning
-
-![Example machine learning task: GPR](readme_images/gpr_ts_sine.png)
+please check out my Medium blog [here](https://rmsander.medium.com).
