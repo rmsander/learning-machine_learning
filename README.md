@@ -50,7 +50,7 @@ you to check out `python/machine_learning_in_python/`.  In this directory, I hav
 tutorials for:
 
 1. [Clustering Algorithms, such as K-Means Clustering](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/clustering)
-2. [Dimensionality Reduction, i.e. Principal Component Analysis (PCA)](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/dimensional_reduction)
+2. [Dimensionality Reduction, i.e. Principal Component Analysis (PCA)](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/dimensionality_reduction)
 3. [Adversarial Search Algorithms](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/adversarial_search)
 4. [Computer Vision](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/computer_vision)
 5. [Game Theory](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/game_theory)
