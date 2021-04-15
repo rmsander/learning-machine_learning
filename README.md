@@ -26,10 +26,13 @@ For learning about concepts in machine learning, computer vision, operating syst
 2. Introductory Slides on Python
 
 ## Python Programming
-Python is a powerful programming language for machine learning, probability, 
-statistics, and scientific computing.  Many state-of-the-art frameworks for 
+
+### Overview
+Python is a powerful, high-level, interpreted programming language widely used for 
+machine learning, probability, statistics, and scientific computing.  Many state-of-the-art frameworks for 
 machine learning, such as **TensorFlow**, **PyTorch**, **NumPy**, **Scikit-Learn**, and **Keras** all have open-source implementations in Python.  You can find exercises for Python under the `python` directory.  See contents below:
 
+### Intro To Python
 * Under `python/intro_to_python`, you can find Python files covering fundamentals in Python, such as:
 1. Python data structures (lists, tuples, dictionaries, strings, ints/floats)
 2. Loops and iteration (for and while)
@@ -40,23 +43,35 @@ machine learning, such as **TensorFlow**, **PyTorch**, **NumPy**, **Scikit-Learn
 
 You can also find some introductory concepts in a more "notebook"-like fashion under `python/introductory_notebooks`.
 
-* Under `python/machine_learning_in_python`, I have illustrated some of the applications of Python both inside and outside of AI, such as fingerprint detection, stock price prediction, and Principal Component Analysis.
+### Intro to Machine Learning Fundamentals, Applications, and Domains
+Want to start learning machine learning ab initio-style, from first principles?  Or
+looking for examples of different applications and domains for this field?  If so, I invite 
+you to check out `python/machine_learning_in_python/`.  In this directory, I have
+tutorials for:
 
-* Under `python/machine_learning_fundamentals`, I have included some files for some fundamental concepts in machine learning, such as regression and K-Means Clustering.
+1. [Clustering Algorithms, such as K-Means Clustering](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/clustering)
+2. [Dimensionality Reduction, i.e. Principal Component Analysis (PCA)](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/dimensional_reduction)
+3. [Adversarial Search Algorithms](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/adversarial_search)
+4. [Computer Vision](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/computer_vision)
+5. [Game Theory](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/game_theory)
+6. [Gaussian Process Regression (GPR)](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/gaussian_process_regression)
+7. [General Optimization](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/optimization)
+8. [Reinforcement Learning (RL)](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/reinforcement_learning)
 
-* Under `python/python_package_tutorials`, I have included `jupyter` notebooks (with extension `.ipynb`).  Note that all of these tutorials are implemented with `.ipynb` files and can be run with [Jupyter Notebook](https://jupyter.org/) or [Google Colab](https://colab.research.google.com/).  Tutorials include:
 
-1. `NumPy`
-2. `OpenCV`
-3. `TensorFlow`
-4. `Keras`
-5. `PyTorch`
-6. `pandas` 
-7. `gpytorch`
+### Learning Python Packages For Machine Learning
+The Python programming language contains numerous packages with functions and modules
+implemented to get your machine learning projects and pipelines off the ground quickly,
+reliably, and in a scalable way.  You can find tutorials, in the form of `.ipynb` Jupyter
+notebooks, for the following Python packages under `python/python_package_tutorials/`:
+1. [`numpy` (NumPy)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/numpy)
+2. [`cv2` (OpenCV)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/opencv)
+3. [`tensorflow` (TensorFlow)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/tensorflow)
+4. [`keras` (Keras)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/keras)
+5. [`pytorch` (PyTorch)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/pytorch)
+6. [`pandas` (Pandas)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/Pandas%20Exercises)
+7. [`gpytorch` (GPyTorch)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/gpytorch)
 
-* Under `python/machine_learning_in_python/reinforcement_learning`, you can find some code for deep reinforcement learning from pixels.
-
-* Under `python/machine_learning_in_python/adversarial_search`, you can find an application of Python to solving the game of 2048 using adversarial search techniques.
 
 ## C++ Programming
 Exercises and examples for programming in C++ can be found in `./c++/`.  These examples are mainly derived from exercises with programming drones for autonomous racing in MIT's 16.485: Visual Navigation for Autonomous Vehicles course.  Some examples of code include:
