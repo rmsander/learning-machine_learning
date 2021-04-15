@@ -66,11 +66,10 @@ reliably, and in a scalable way.  You can find tutorials, in the form of `.ipynb
 notebooks, for the following Python packages under `python/python_package_tutorials/`:
 1. [`numpy` (NumPy)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/numpy)
 2. [`cv2` (OpenCV)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/opencv)
-3. [`tensorflow` (TensorFlow)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/tensorflow)
-4. [`keras` (Keras)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/keras)
-5. [`pytorch` (PyTorch)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/pytorch)
-6. [`pandas` (Pandas)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/Pandas%20Exercises)
-7. [`gpytorch` (GPyTorch)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/gpytorch)
+3. [`tensorflow` (TensorFlow) and `keras` (Keras)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/tensorflow)
+4. [`pytorch` (PyTorch)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/pytorch)
+5. [`pandas` (Pandas)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/Pandas%20Exercises)
+6. [`gpytorch` (GPyTorch)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/gpytorch)
 
 
 ## C++ Programming
