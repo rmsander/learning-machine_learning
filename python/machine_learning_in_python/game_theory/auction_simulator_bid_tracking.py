@@ -61,10 +61,18 @@ def make_alpha_beta_bids_dict():
     # Initialize dictionary
     alpha_beta_bids_dict = {}
 
+    # Specify granularity
+    alpha_step_size = float(input("Please specify a step size for alpha (e.g. 0.01): --> "))
+    beta_step_size = float(input("Please specify a step size for beta (e.g. 0.1): --> "))
+
+    # Use granularity to get size
+    num_alphas = int(alpha_step_size ** -1)
+    num_betas = int(beta_step_size ** -1)
+
     # Initialize 2D array and ranges of variables to loop over
-    alpha_beta_array = np.zeros((10, 10)).astype(np.uint32)
-    alpha_range = np.arange(0.1, 1.1, step=0.1)  # Note: Doesn't take last number
-    beta_range = np.arange(0.1, 1.1, step=0.1)   # Note: Doesn't take last number
+    alpha_beta_array = np.zeros((num_alphas, num_betas)).astype(np.uint32)
+    alpha_range = np.arange(alpha_step_size, 1 + alpha_step_size, step=alpha_step_size)  # Note: Doesn't take last number
+    beta_range = np.arange(beta_step_size, 1 + beta_step_size, step=beta_step_size)   # Note: Doesn't take last number
 
     # Loop over alpha and beta
     for a, alpha in enumerate(alpha_range):
@@ -80,11 +88,11 @@ def make_alpha_beta_bids_dict():
     # Format alpha_beta_array to show row and column headers
     # Add column of headers for alpha values
     alpha_headers = np.array(
-        ["Alpha (col A)/Beta (row 1)"] + ["{}".format(round(a, 1)) for a in alpha_range]).reshape((-1, 1))
+        ["Alpha (col A)/Beta (row 1)"] + ["{}".format(round(a, 3)) for a in alpha_range]).reshape((-1, 1))
 
     # Add row of headers for beta values
     beta_headers = np.array(
-        ["{}".format(round(b, 1)) for b in beta_range])
+        ["{}".format(round(b, 3)) for b in beta_range])
 
     # Concatenate arrays
     # Add column headers
