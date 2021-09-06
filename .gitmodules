@@ -1,0 +1,21 @@
+[submodule "python/machine_learning_in_python/reinforcement_learning/marl_ppo"]
+	path = python/machine_learning_in_python/reinforcement_learning/marl_ppo
+	url = https://github.com/rmsander/marl_ppo
+[submodule "python/machine_learning_in_python/computer_vision/spatial_lda"]
+	path = python/machine_learning_in_python/computer_vision/spatial_lda
+	url = https://github.com/rmsander/spatial_LDA
+[submodule "python/machine_learning_in_python/computer_vision/data_fusion_2d3d/sparse_fusion_scene_seg"]
+	path = python/machine_learning_in_python/computer_vision/data_fusion_2d3d/sparse_fusion_scene_seg
+	url = https://github.com/rmsander/sparse-fusion-scene-seg
+[submodule "python/machine_learning_in_python/computer_vision/unsupervised_point_cloud_detection/unsupervised_pc_object_detect"]
+	path = python/machine_learning_in_python/computer_vision/unsupervised_point_cloud_detection/unsupervised_pc_object_detect
+	url = https://github.com/rmsander/gen-point-cloud-object-detection
+[submodule "python/machine_learning_in_python/computer_vision/object_detection/autonomous_driving_object_detect_yoloV3"]
+	path = python/machine_learning_in_python/computer_vision/object_detection/autonomous_driving_object_detect_yoloV3
+	url = https://github.com/rmsander/RSS-deep-learning-challenge
+[submodule "python/machine_learning_in_python/recommendation_engines/collaborative_filtering/movielens"]
+	path = python/machine_learning_in_python/recommendation_engines/collaborative_filtering/movielens
+	url = https://github.com/rmsander/movielens
+[submodule "python/machine_learning_in_python/robotics/estimation/lidar_lidar_calibration"]
+	path = python/machine_learning_in_python/robotics/estimation/lidar_lidar_calibration
+	url = https://github.com/rmsander/lidar-lidar-cal

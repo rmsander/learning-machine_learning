@@ -57,7 +57,8 @@ tutorials for:
 6. [Gaussian Process Regression (GPR)](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/gaussian_process_regression)
 7. [General Optimization](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/optimization)
 8. [Reinforcement Learning (RL)](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/reinforcement_learning)
-
+9. [Sampling](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/sampling)
+10. [Robotics](https://github.com/rmsander/learning-machine_learning/tree/master/python/machine_learning_in_python/robotics)
 
 ### Learning Python Packages For Machine Learning
 The Python programming language contains numerous packages with functions and modules
@@ -70,7 +71,7 @@ notebooks, for the following Python packages under `python/python_package_tutori
 4. [`pytorch` (PyTorch)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/pytorch)
 5. [`pandas` (Pandas)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/Pandas%20Exercises)
 6. [`gpytorch` (GPyTorch)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/gpytorch)
-
+7. [`aws` (EC2 + Boto3 APIs)](https://github.com/rmsander/learning-machine_learning/tree/master/python/python_package_tutorials/aws)
 
 ## C++ Programming
 Exercises and examples for programming in C++ can be found in `./c++/`.  These examples are mainly derived from exercises with programming drones for autonomous racing in MIT's 16.485: Visual Navigation for Autonomous Vehicles course.  Some examples of code include:
