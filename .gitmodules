@@ -19,3 +19,9 @@
 [submodule "python/machine_learning_in_python/robotics/estimation/lidar_lidar_calibration"]
 	path = python/machine_learning_in_python/robotics/estimation/lidar_lidar_calibration
 	url = https://github.com/rmsander/lidar-lidar-cal
+[submodule "stata/ridesharing-econometrics"]
+	path = stata/ridesharing-econometrics
+	url = https://github.com/rmsander/ridesharing-econometrics
+[submodule "julia/gen-point-cloud-object-detection"]
+	path = julia/gen-point-cloud-object-detection
+	url = https://github.com/rmsander/gen-point-cloud-object-detection
