@@ -34,7 +34,7 @@ google-pasta==0.2.0
 google-resumable-media @ file:///tmp/build/80754af9/google-resumable-media_1608056254223/work
 googleapis-common-protos @ file:///tmp/build/80754af9/googleapis-common-protos-feedstock_1613732354075/work
 gpytorch==1.4.0
-grpcio==1.32.0
+grpcio==1.53.0
 h5py==2.10.0
 idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
 importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1617877314848/work
