@@ -10,7 +10,7 @@ boto3 @ file:///tmp/build/80754af9/boto3_1617221904235/work
 botocore @ file:///tmp/build/80754af9/botocore_1617824614125/work
 brotlipy==0.7.0
 cachetools @ file:///tmp/build/80754af9/cachetools_1611600262290/work
-certifi==2022.12.7
+certifi==2023.7.22
 cffi @ file:///tmp/build/80754af9/cffi_1613246939562/work
 chardet @ file:///tmp/build/80754af9/chardet_1605303159953/work
 click @ file:///home/linux1/recipes/ci/click_1610990599742/work
