@@ -97,7 +97,7 @@ tensorflow>=2.5.2
 tensorflow-estimator==2.4.0
 termcolor==1.1.0
 threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
-torch==1.13.1
+torch==2.2.0
 tornado @ file:///tmp/build/80754af9/tornado_1606942283357/work
 tqdm @ file:///tmp/build/80754af9/tqdm_1615925068909/work
 traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
