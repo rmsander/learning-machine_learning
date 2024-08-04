@@ -46,7 +46,7 @@ jmespath @ file:///tmp/build/80754af9/jmespath_1594304593830/work
 joblib @ file:///tmp/build/80754af9/joblib_1613502643832/work
 jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1616770841739/work
 jupyter-core @ file:///tmp/build/80754af9/jupyter_core_1612213308260/work
-Keras==2.3.1
+Keras==2.13.1
 Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
 Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
 kiwisolver @ file:///tmp/build/80754af9/kiwisolver_1612282414123/work
